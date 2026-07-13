@@ -6,19 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gts8wifi
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gts8wifi/proprietary/vendor/bin/agmcap:$(TARGET_COPY_OUT_VENDOR)/bin/agmcap \
-    vendor/samsung/gts8wifi/proprietary/vendor/bin/agmcompressplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmcompressplay \
-    vendor/samsung/gts8wifi/proprietary/vendor/bin/agmplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmplay \
-    vendor/samsung/gts8wifi/proprietary/vendor/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/DsgpPolicy.csv:$(TARGET_COPY_OUT_VENDOR)/etc/DsgpPolicy.csv \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/IPACM_Filter_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_Filter_cfg.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/MesDetectorBlur.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorBlur.tflite \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/MesDetectorLowlight.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorLowlight.tflite \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/MesDetectorNoise.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorNoise.tflite \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/moire_detection.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/moire_detection.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/a2dpsink_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dpsink_audio_policy_configuration.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb \
@@ -38,54 +30,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_cdp/CDP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_cdp/CDP_acdb_cal.acdb \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_cdp/CDP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_cdp/CDP_workspaceFileXml.qwsp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp \
+    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/acdb_cal.acdb \
+    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_mtp/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/workspaceFileXml.qwsp \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/audconf/OPEN/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/acdb_cal.acdb \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/audconf/OPEN/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFileXml.qwsp \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/audio_effects_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_sec.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/audio_effects_spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_spatializer.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile5.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile6.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile7.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile15.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile16.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile17.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile18.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile19.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile20.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile21.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile32.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile6.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile7.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile7.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/dax3_media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dax3_media_codecs_dolby_audio.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
@@ -101,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA24VU01_WQXGA.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA24VU01_WQXGA.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA46AS01_WQXGA.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA46AS01_WQXGA.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted:$(TARGET_COPY_OUT_VENDOR)/etc/face3d/qcnn_concat_file_model-0324_2_encrypted \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
@@ -116,31 +70,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-qti.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.security.keymint-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/android.hardware.usb@1.3-service.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service.coral.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/argos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/argos.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/btcoex_cont_config.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/btcoex_cont_config.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/emservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emservice.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/hermesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hermesd.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.audio.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.audio.samsung.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.avb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.avb.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.qti.display_boot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.display_boot.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.ramplus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ramplus.rc \
@@ -152,89 +92,40 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/ipacm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/memtrack_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack_qti.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/modemManager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modemManager.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/mppserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mppserver.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/mstatdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mstatdaemon.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/mutualex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mutualex.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/pa_daemon_qsee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_qsee.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qapeservice.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qguard.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qguard.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/qvrd_vndr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qvrd_vndr.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/samsung.software.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.software.media.c2@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/secaudiohalaidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secaudiohalaidl.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/snaplite_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snaplite_utility.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/sxrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sxrd.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.audio-adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.audio-adsprpc-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.eid@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.eid@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf-hal-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.ril.wifionly.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.ril.wifionly.qcom.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.securesnap-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.securesnap-lazy.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.wifidisplay-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.wifidisplay-default.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.snap-lazy.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.ddar@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.ddar@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.hdm@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.hdm@1.1-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.kg-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.kg-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.sensordebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensordebug.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/libnfc-SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220.conf \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
@@ -251,9 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_c2_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_c2_sec_ape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_ape.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_c2_sec_qcp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_qcp.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_cape_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape_vendor.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v0.xml \
@@ -326,39 +214,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/portrait_data/SRIB_HumanSegVideo_INT8_V102_sm8450_snpe2106_vendor.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/portrait_data/SRIB_HumanSegVideo_INT8_V102_sm8450_snpe2106_vendor.dlc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/portrait_data/single_bokeh_feature_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/portrait_data/single_bokeh_feature_vendor.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/pwr/VendorScenarioPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VendorScenarioPowerOptFeature.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qguard.json:$(TARGET_COPY_OUT_VENDOR)/etc/qguard.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/339/0/65536/mtp855.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/339/0/65536/mtp855.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/356/0/65536/mtp865.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/0/65536/mtp865.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/356/1/131072/morpheus.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/131072/morpheus.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio_6dof_config.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/aisolution_1.0/BrightModel-timestamp:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/aisolution_1.0/BrightModel-timestamp \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/aisolution_1.0/model_960_896_g_scalar_b16ch_0731_32ch_space_v2_noslice_HTP_FP16.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/aisolution_1.0/model_960_896_g_scalar_b16ch_0731_32ch_space_v2_noslice_HTP_FP16.dlc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/MeanFea.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/MeanFea.bin \
@@ -392,7 +249,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sec_audio_volume_curve.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sec_audio_volume_curve.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/secnvm/k250a_47000301_0.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000301_0.img \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/secnvm/k250a_47000304_c.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000304_c.img \
+    vendor/samsung/gts8wifi/proprietary/vendor/etc/secnvm/k250a_47000305_c.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000305_c.img \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/secnvm/k250a_47000306_1.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000306_1.img \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/cape_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cape_qrd_lsm6dst_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_ak991x_0.json \
@@ -493,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/vramdiskd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vramdiskd.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/wlan_common_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_common_rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/wlan_vendor_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_vendor_rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -534,7 +390,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/firmware/cs40l26-svc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l26-svc.bin \
     vendor/samsung/gts8wifi/proprietary/vendor/firmware/cs40l26.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l26.bin \
     vendor/samsung/gts8wifi/proprietary/vendor/firmware/cs40l26.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l26.wmfw \
-    vendor/samsung/gts8wifi/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
     vendor/samsung/gts8wifi/proprietary/vendor/firmware/evass-lt-21.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b00 \
     vendor/samsung/gts8wifi/proprietary/vendor/firmware/evass-lt-21.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b01 \
     vendor/samsung/gts8wifi/proprietary/vendor/firmware/evass-lt-21.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b02 \
@@ -637,22 +492,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/lib64/camera/t_t10_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/t_t10_dual_calibration.bin \
     vendor/samsung/gts8wifi/proprietary/vendor/lib64/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/uw_dual_calibration.bin \
     vendor/samsung/gts8wifi/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_pcm_plugin.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmclient.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalclient.so \
     vendor/samsung/gts8wifi/proprietary/vendor/lib64/p3_profile.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/p3_profile.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so \
-    vendor/samsung/gts8wifi/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0.so \
     vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.dlc \
     vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.info:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.info \
     vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tflite \
@@ -685,7 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e972_832X1072X4_v9_1_IS_C3P123_v8_2ref_SC_ELL_v2.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e972_832X1072X4_v9_1_IS_C3P123_v8_2ref_SC_ELL_v2.pb
 
 PRODUCT_PACKAGES += \
-    btaudio_offload_if \
     com.qti.eeprom.gt24p128c2csli_imx766 \
     com.qti.eeprom.irs2381c_polar \
     com.qti.eeprom.sec2qcconversion \
@@ -824,15 +663,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.linearmapper \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
     com.qualcomm.qti.mcx.usecase.extension \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -844,14 +675,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gnss-aidl-impl-qti \
     android.hardware.renderscript@1.0-impl \
-    android.hardware.soundtrigger@2.2-impl \
-    android.hardware.soundtrigger@2.3-impl \
-    audio.a2dpsink.default \
-    audio.bluetooth.default \
-    audio.primary.default \
-    audio.primary.taro \
-    audio.r_submix.default \
-    audio.sec_primary.default \
     audio.usb.default \
     camera.qcom \
     camera.unihal.default \
@@ -859,16 +682,7 @@ PRODUCT_PACKAGES += \
     fingerprint.default \
     gralloc.default \
     local_time.default \
-    vendor.qti.hardware.capabilityconfigstore@1.0-impl \
-    vendor.qti.hardware.eid@1.0-impl \
-    vendor.qti.hardware.qccvndhal@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
-    vendor.qti.hardware.servicetracker@1.2-impl \
-    vendor.samsung.hardware.audio@1.0-impl \
-    vendor.samsung.hardware.bluetooth.a2dp@1.0-impl \
-    vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl \
-    vendor.samsung.hardware.bluetooth.audio@2.1-impl \
-    vendor.samsung.hardware.camera.provider@4.0-impl \
     vibrator.default \
     vulkan.adreno \
     libAFSegmenter_v1.camera.samsung \
@@ -924,10 +738,6 @@ PRODUCT_PACKAGES += \
     libTrustedUIVM \
     libVideoSuperNight_interface \
     lib_SamsungRec_07010 \
-    lib_SoundAlive_3DPosition_ver202 \
-    lib_SoundAlive_AlbumArt_ver105 \
-    lib_SoundAlive_play_plus_ver800 \
-    lib_SoundBooster_ver1050 \
     libadm \
     libadreno_app_profiles \
     libadreno_utils \
@@ -935,7 +745,6 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libaidenoiser \
     libaivideocentral.arcsoft \
-    libar-pal \
     libarcsoft_aieffectpk_video \
     libarcsoft_aieffectpk_video_bokeh \
     libarcsoft_aieffectpk_video_plight \
@@ -950,13 +759,8 @@ PRODUCT_PACKAGES += \
     libbauthtzcommon \
     libbitmlengine \
     libbitmlenginev2 \
-    libbluetooth_a2dpsink_session \
-    libbluetooth_audio_session_qti \
-    libbluetooth_audio_session_qti_2_1 \
     libbodyid.arcsoft \
-    libbthost_if \
     libc2filterplugin \
-    libcacertclient \
     libcamera2ndk_vendor \
     libcamera_nn_stub \
     libcamerapostproc \
@@ -982,10 +786,6 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libchilog \
-    libcne \
-    libcneapiclient \
-    libcneoplookup \
-    libcneqmiutils \
     libcodecsolutionhelper_vendor \
     libcom.qti.chinodeutils \
     libconfigdb \
@@ -1036,7 +836,6 @@ PRODUCT_PACKAGES += \
     libhdcpsrm \
     libhdr10plus \
     libhdradaptivecustom \
-    libhermes \
     libhypermotion_core \
     libhypermotion_interface \
     libidl \
@@ -1048,7 +847,6 @@ PRODUCT_PACKAGES += \
     libipebpsstriping480 \
     libizat_client_api \
     libizat_core \
-    libjnihelper \
     libjpege \
     libjpegencoder_sw.unifunc \
     libjpegsq.media.samsung \
@@ -1127,8 +925,6 @@ PRODUCT_PACKAGES += \
     libqc2filter \
     libqc2imageformatfilter \
     libqcbor \
-    libqcc_file_agent \
-    libqcc_sdk \
     libqcci_legacy \
     libqcmaputils \
     libqcodec2_base \
@@ -1142,7 +938,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
     libqdi \
-    libqdma_file_agent \
     libqdp \
     libqdpr \
     libqfp_sensortest \
@@ -1173,7 +968,6 @@ PRODUCT_PACKAGES += \
     libqti-utils \
     libqti_vndfwk_detect_vendor \
     libqtigefar \
-    librecordalive \
     librmengine_plus.uniplugin@1.0 \
     librpmb \
     libsavsac \
@@ -1191,8 +985,6 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libsec2qc_conversion \
     libsecaudiocoreutils \
-    libsecaudioinfo \
-    libsecaudiolevel \
     libsecfr_engine \
     libsecfr_model \
     libsecnativefeature \
@@ -1200,7 +992,6 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libsegmentationeffect.uniplugin@1.0 \
     libsegmentationeffect_capture.uniplugin@1.0 \
-    libsehbluetooth_audio_session \
     libsemnativecarrierfeature \
     libsensorlistener \
     libsensorndkbridge \
@@ -1278,9 +1069,6 @@ PRODUCT_PACKAGES += \
     libvpphcp \
     libvpphvx \
     libvppimmotion \
-    libwpa_client \
-    libwpa_drv_oem \
-    libwqe \
     libwvhidl \
     libxml \
     libxtadapter \
@@ -1291,16 +1079,8 @@ PRODUCT_PACKAGES += \
     qti.video.utils.videobufferlayout \
     sensors.grip \
     sensors.ssc \
-    libasphere \
-    libaudioeffectoffload \
-    libaudiosaplus_sec \
     libdynproc \
     libhapticgenerator \
-    libmyspace \
-    libsamsungSoundbooster_plus \
-    libshoebox \
-    libswdap \
-    libswspatializer \
     unihal_android \
     unihal_cutils \
     unihal_entry \
@@ -1317,14 +1097,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.6 \
     vendor.display.color@1.7 \
     vendor.display.postproc@1.0 \
-    vendor.qti.data.factory@2.0 \
-    vendor.qti.data.factory@2.1 \
-    vendor.qti.data.factory@2.2 \
-    vendor.qti.data.factory@2.3 \
-    vendor.qti.data.factory@2.4 \
-    vendor.qti.data.factory@2.5 \
-    vendor.qti.data.mwqem@1.0 \
-    vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal@1.0 \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
@@ -1332,26 +1104,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-service \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0 \
-    vendor.qti.hardware.automotive.vehicle@1.0 \
-    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.data.cne.internal.api@1.0 \
-    vendor.qti.hardware.data.cne.internal.constants@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.1 \
-    vendor.qti.hardware.data.cne.internal.server@1.2 \
-    vendor.qti.hardware.data.connection@1.0 \
-    vendor.qti.hardware.data.connection@1.1 \
-    vendor.qti.hardware.data.connectionfactory-V1-ndk_platform \
-    vendor.qti.hardware.data.dataactivity-V1-ndk_platform \
-    vendor.qti.hardware.data.dynamicdds@1.0 \
-    vendor.qti.hardware.data.dynamicdds@1.1 \
-    vendor.qti.hardware.data.flow@1.0 \
-    vendor.qti.hardware.data.ka-V1-ndk_platform \
-    vendor.qti.hardware.data.latency@1.0 \
-    vendor.qti.hardware.data.lce@1.0 \
-    vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.display.config-V1-ndk_platform \
     vendor.qti.hardware.display.config-V2-ndk_platform \
     vendor.qti.hardware.display.config-V3-ndk_platform \
@@ -1359,19 +1113,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.config-V5-ndk_platform \
     vendor.qti.hardware.display.config-V6-ndk_platform \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.eid@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
-    vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
-    vendor.qti.hardware.qccvndhal@1.0-halimpl \
-    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.hardware.trustedui@1.0 \
     vendor.qti.hardware.trustedui@1.1 \
     vendor.qti.hardware.trustedui@1.2 \
@@ -1380,14 +1127,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.vpp@2.0 \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.latency@2.0 \
-    vendor.qti.latency@2.1 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.power.pasrmanager@1.0 \
@@ -1396,11 +1135,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.spu@1.1 \
     vendor.qti.spu@2.0 \
     vendor.qti.voiceprint@1.0 \
-    vendor.samsung.hardware.audio@1.0 \
-    vendor.samsung.hardware.bluetooth.a2dp@1.0 \
-    vendor.samsung.hardware.bluetooth.a2dpsink@1.0 \
-    vendor.samsung.hardware.bluetooth.audio@2.0 \
-    vendor.samsung.hardware.bluetooth.audio@2.1 \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.camera.device@5.0-impl \
     vendor.samsung.hardware.camera.device@5.0 \
@@ -1408,15 +1142,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.camera.provider@4.0 \
     vendor.samsung.hardware.health@2.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
-    vendor.samsung.hardware.thermal@1.0 \
-    vendor.samsung.hardware.tlc.hdm@1.0 \
-    vendor.samsung.hardware.tlc.hdm@1.1-impl \
-    vendor.samsung.hardware.tlc.hdm@1.1 \
-    vendor.samsung.hardware.tlc.ucm@2.0-impl \
-    vendor.samsung.hardware.tlc.ucm@2.0 \
     vintf-codecsolution-V2-ndk_platform \
-    android.hardware.soundtrigger@2.0-impl \
-    android.hardware.soundtrigger@2.1-impl \
     libapex_cmn \
     libapex_utils \
     libgaya \
@@ -1436,13 +1162,11 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper_secure \
     android.hardware.gnss@2.1-impl-qti \
     gatekeeper.mdfpp \
-    libsecaudiohal_aidl \
     libDLInterface.camera.samsung \
     libFileMux_proprietary \
     libHprFace_GAE_api.camera.samsung \
     libHpr_RecGAE_cvFeature_v1.0.camera.samsung \
     libSNPE \
-    libSecC2ComponentStore \
     libSnpeCpu \
     libSnpeGpu \
     libSnpeHtpPrepare \
@@ -1450,47 +1174,20 @@ PRODUCT_PACKAGES += \
     libTsAf_TS8Q \
     libTsAwbFront_GTS8 \
     libTsAwb_GTS8 \
-    libagm_vendor \
-    libagm_compress_plugin_vendor \
-    libagm_mixer_plugin_vendor \
-    libagm_pcm_plugin_vendor \
-    libagmclient_vendor \
-    libagmmixer_vendor \
+    lib_android_keymaster_keymint_utils_samsung \
     libai_denoiser_interface \
-    libar-acdb_vendor \
-    libar-gpr_vendor \
-    libar-gsl_vendor \
     libarcsoft_deflicker_native \
     libarcsoft_dualcam_portraitlighting_preview \
-    libats_vendor \
     libbacklight-calib \
     libc++_shared \
     libclconverter \
-    libcodec2_sec_aacdec \
-    libcodec2_sec_aacenc \
-    libcodec2_sec_amrnbdec \
-    libcodec2_sec_amrwbdec \
-    libcodec2_sec_flacdec \
-    libcodec2_sec_imadec \
-    libcodec2_sec_mp3dec \
-    libcodec2_sec_mp4vdec \
-    libcodec2_sec_soft_common \
-    libcodec2_sec_vc1dec \
-    libcodec2_soft_ac4dec \
-    libcodec2_soft_eac3dec \
     libcolor-default \
-    libdeccfg \
     libdigital-dimming \
     libdisplayqos \
     libdisplayskuutils \
     libdk_vnd_service_core \
     libdpps \
     libdsms_vendor \
-    libengmode15 \
-    libengmode2lite \
-    libengmode_client \
-    libengmode_server \
-    libengmode_tlc \
     libese-grdg \
     libgame_enhance \
     libhdr_backlight_adapter \
@@ -1500,29 +1197,26 @@ PRODUCT_PACKAGES += \
     libhdraid.npu.arcsoft \
     libhdrdynamic \
     libhdrdynamicootf \
+    libhermes \
     libhermes_bdbridge \
     libhermes_cred \
     libhwvault \
     libhypervintf \
+    libkeymaster4_1support_samsung \
+    libkeymaster4support_samsung \
+    libkeymaster_messages_samsung \
+    libkeymaster_portable_samsung \
     libkeymasterutils \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
+    libkeymint_samsung \
     liblearningmodule \
     liblmthermallistner \
     libloadalgo_stub \
-    liblx-ar_util_vendor \
-    liblx-osal_vendor \
     libmdmimgload \
-    libmediaconverter \
     libmemutils \
     libmeters \
     libmmosal_vendor \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
-    libmpp_common_vendor \
-    libmpp_vendor \
-    libmppdeflicker \
-    libmppfrc \
     libnanopb \
     libnetmgr_datapath_proxy \
     libnetmgr_sscm3 \
@@ -1530,13 +1224,14 @@ PRODUCT_PACKAGES += \
     libnetmgrportutils \
     libnlnetmgr \
     libpal_net_if \
-    libpalclient_vendor \
     libpetcamera_engine \
+    libpuresoftkeymasterdevice_samsung \
     libqapesdk \
+    libqcc_file_agent \
+    libqcc_sdk \
     libqdcm-algo \
     libqdcm-json-mode-parser \
     libqdcm-mode-parser \
-    libqesdk \
     libqseed3 \
     libqtikeymaster4 \
     librapidscorerplus \
@@ -1544,8 +1239,6 @@ PRODUCT_PACKAGES += \
     libreffeature \
     libsdm-color \
     libsdm-colormgr-algo \
-    libsdm-disp-vndapis \
-    libsdmextension \
     libsec_skpmHalTlc \
     libsecril-client \
     libshctrl \
@@ -1557,14 +1250,13 @@ PRODUCT_PACKAGES += \
     libsnap_compute_wrapper_secure \
     libsnap_vndk \
     libsnap_vndk_secure \
-    libsnapdragoncolor-manager \
-    libsnapdragoncolor-qdcm \
     libsnaplite_native \
     libsnaplite_native_secure \
     libsnaplite_wrapper \
     libsnaplite_wrapper_secure \
     libsnpe_dsp_domains_v3 \
     libsnpe_wrapper \
+    libsoft_attestation_cert_samsung \
     libsomxcmn \
     libtestutils \
     libtinyxml2_1 \
@@ -1578,159 +1270,88 @@ PRODUCT_PACKAGES += \
     libvkmanager_vendor \
     libvkservice \
     libwfdaac_vendor \
-    vendor.qti.hardware.AGMIPC@1.0-impl_vendor \
-    vendor.qti.hardware.AGMIPC@1.0_vendor \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
+    vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qccsyshal@1.1 \
     vendor.qti.hardware.secureprocessor.common@1.0-helper \
     vendor.qti.hardware.secureprocessor.common@1.0 \
     vendor.qti.hardware.secureprocessor.config@1.0 \
     vendor.qti.hardware.secureprocessor.device@1.0 \
     vendor.samsung.frameworks.security.dsms-V1-ndk_platform \
     vendor.samsung.frameworks.security.ucm.crypto@1.0 \
-    vendor.samsung.hardware.audio-V1-ndk_platform \
-    vendor.samsung.hardware.authfw@1.0 \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
     vendor.samsung.hardware.gnss-V2-ndk_platform \
     vendor.samsung.hardware.keymint-V1-ndk_platform \
-    vendor.samsung.hardware.light-V1-ndk_platform \
-    vendor.samsung.hardware.media.converter-V1-ndk_platform \
-    vendor.samsung.hardware.media.converter-V2-ndk_platform \
     vendor.samsung.hardware.media.mpp-V5-ndk_platform \
-    vendor.samsung.hardware.miscpower@2.0 \
     vendor.samsung.hardware.security.drk-V1-ndk_platform \
     vendor.samsung.hardware.security.drk@2.0 \
-    vendor.samsung.hardware.security.engmode@1.0 \
-    vendor.samsung.hardware.security.fkeymaster-V1-ndk_platform \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0 \
-    vendor.samsung.hardware.security.hdcp.wifidisplay-V2-ndk_platform \
     vendor.samsung.hardware.security.hermes-V1-ndk_platform \
     vendor.samsung.hardware.security.skpm@1.0 \
     vendor.samsung.hardware.security.widevine.keyprov-V1-ndk_platform \
     vendor.samsung.hardware.snap-V1-ndk_platform \
-    vendor.samsung.hardware.sysinput@1.0 \
-    vendor.samsung.hardware.sysinput@1.1 \
-    vendor.samsung.hardware.sysinput@1.2 \
-    vendor.samsung.hardware.sysinput@1.3 \
-    vendor.samsung.hardware.tlc.ddar@1.0 \
-    vendor.samsung.hardware.tlc.iccc@1.0-impl \
-    vendor.samsung.hardware.tlc.iccc@1.0 \
-    vendor.samsung.hardware.tlc.kg-V2-ndk_platform \
-    vendor.samsung.hardware.wifi.hostapd@4.0 \
-    vendor.samsung.hardware.wifi.supplicant@3.0 \
-    vendor.samsung.hardware.wifi.supplicant@3.1 \
-    vendor.samsung.hardware.wifi@2.0 \
-    vendor.samsung.hardware.wifi@2.1 \
-    vendor.samsung.hardware.wifi@2.2 \
-    vendor.samsung.hardware.wifi@2.3 \
-    bm2n00 \
-    bm2n01 \
-    bm2n02 \
-    bm2n03 \
-    bm2n04 \
-    bm2n05 \
-    bm2n06 \
-    bm2n07 \
-    bm2n08 \
-    bm2n09 \
-    bm2n10 \
-    bm2n11 \
-    libSnpeHtpV69Skel \
-    libVppFrcQnnHtp \
-    libVppQnnHtp \
-    libadsp_jpege_skel \
-    libapn_dsp_skel \
-    libbitml_nsp_skel \
-    libbitml_nsp_v2_skel \
-    libcamera_nn_skel \
-    libcdsp_face_skel \
-    libcvpdsp_2_1 \
-    libdspCV_skel \
-    libdsp_streamer_binning \
-    libdsphist_qc_skel \
-    libdspmc_qc_skel \
-    libevadsp_3_0 \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libmctfengine_skel \
-    libmobilenet_dsp_frc \
-    libmobilenet_dsp_frc_networks \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsnpe_dsp_v68_domains_v3_skel \
-    libvpp_ais_networks \
-    libvpp_vqa_networks \
-    libvpt_action_recognition \
+    vendor_lib_rfsa_adsp_bm2n00_bin \
+    vendor_lib_rfsa_adsp_bm2n01_bin \
+    vendor_lib_rfsa_adsp_bm2n02_bin \
+    vendor_lib_rfsa_adsp_bm2n03_bin \
+    vendor_lib_rfsa_adsp_bm2n04_bin \
+    vendor_lib_rfsa_adsp_bm2n05_bin \
+    vendor_lib_rfsa_adsp_bm2n06_bin \
+    vendor_lib_rfsa_adsp_bm2n07_bin \
+    vendor_lib_rfsa_adsp_bm2n08_bin \
+    vendor_lib_rfsa_adsp_bm2n09_bin \
+    vendor_lib_rfsa_adsp_bm2n10_bin \
+    vendor_lib_rfsa_adsp_bm2n11_bin \
+    vendor_lib_rfsa_adsp_libSnpeHtpV69Skel_so \
+    vendor_lib_rfsa_adsp_libVppFrcQnnHtp_so \
+    vendor_lib_rfsa_adsp_libVppQnnHtp_so \
+    vendor_lib_rfsa_adsp_libadsp_jpege_skel_so \
+    vendor_lib_rfsa_adsp_libapn_dsp_skel_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_skel_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_v2_skel_so \
+    vendor_lib_rfsa_adsp_libcamera_nn_skel_so \
+    vendor_lib_rfsa_adsp_libcdsp_face_skel_so \
+    vendor_lib_rfsa_adsp_libcvpdsp_2_1_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libdsphist_qc_skel_so \
+    vendor_lib_rfsa_adsp_libdspmc_qc_skel_so \
+    vendor_lib_rfsa_adsp_libevadsp_3_0_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmctfengine_skel_so \
+    vendor_lib_rfsa_adsp_libmobilenet_dsp_frc_so \
+    vendor_lib_rfsa_adsp_libmobilenet_dsp_frc_networks_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_v68_domains_v3_skel_so \
+    vendor_lib_rfsa_adsp_libvpp_ais_networks_so \
+    vendor_lib_rfsa_adsp_libvpp_vqa_networks_so \
+    vendor_lib_rfsa_adsp_libvpt_action_recognition_so \
     vendor.qti.hardware.cvp@1.0 \
-    vendor.qti.hardware.limits@1.0 \
-    vendor.qti.hardware.limits@1.1 \
-    CACertService \
     TimeService \
     com.qualcomm.qti.gpudrivers.taro.api32 \
     android.hardware.dumpstate@1.1-service-lazy.xml \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.gnss@2.1-service-qti.xml \
-    android.hardware.usb@1.3-service.coral.xml \
     c2_manifest_vendor_audio.xml \
     deviceManifest.xml \
-    engmode_manifest.xml \
     iweaver_v1_manifest.xml \
-    lights-default-sec.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_non_qmaa.xml \
-    memtrack_qti.xml \
-    mppserver.xml \
-    radio_manifest_wifionly.xml \
-    sec_c2_manifest_default0_1_0.xml \
-    secaudiohalaidl_manifest.xml \
-    vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.perf.xml \
-    vendor.qti.hardware.servicetracker@1.2-service.xml \
-    vendor.samsung.hardware.authfw@1.0-manifest.xml \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
-    vendor.samsung.hardware.radio.exclude.qcom.xml \
-    vendor.samsung.hardware.securesnap-default.xml \
-    vendor.samsung.hardware.security.fkeymaster-service.xml \
-    vendor.samsung.hardware.security.hdcp.wifidisplay-default.xml \
     vendor.samsung.hardware.security.widevine.keyprov-service.xml \
-    vendor.samsung.hardware.thermal@1.0-manifest.xml \
-    vendor.samsung.hardware.tlc.ddar@1.0-manifest.xml \
-    vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml \
-    vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml \
-    vendor.samsung.hardware.tlc.kg-manifest.xml \
-    vendor.samsung.hardware.wifi.hostapd.xml \
-    vendor.samsung.hardware.wifi@2.0-service.xml \
-    vendor.qti.qesdsys.service.xml \
-    ATFWD-daemon \
     StoreKeybox \
-    TrustedUISampleTest \
     add.pb \
-    adpl \
     adsprpcd \
-    agmcap_vendor \
-    agmcompressplay_vendor \
-    agmplay_vendor \
-    argosd \
-    athdiag \
     audioadsprpcd \
-    audioflacapp \
     btcoex_cont_config \
     cdsprpcd \
     cnss-daemon \
     cnss_diag \
-    cnss_dumpcollector \
-    cplay \
     diag-router \
-    diag_callback_sample \
-    diag_dci_sample \
-    diag_klog \
-    diag_mdlog \
-    diag_socket_log \
-    diag_uart_log \
     dspservice \
-    emservice \
     factory.ssc \
-    fsdbg_vendor \
     hdcp1prov \
     hdcp2p2prov \
     hermesd \
@@ -1740,98 +1361,48 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.keymaster@4.0-strongbox-service-qti \
-    android.hardware.media.omx@1.0-service \
-    android.hardware.security.keymint-service \
-    android.hardware.usb@1.3-service.coral \
+    android.hardware.security.keymint-service_samsung \
     macloader \
-    mfgloader \
-    mppserver \
-    samsung.software.media.c2@1.0-service \
-    secaudiohalaidl \
-    vendor.display.color@1.0-service \
-    vendor.qti.hardware.AGMIPC@1.0-service_vendor \
-    vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.eid@1.0-service \
     vendor.qti.hardware.iop@2.0-service \
-    vendor.qti.hardware.memtrack-service \
     vendor.qti.hardware.perf-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.secureprocessor@1.0 \
-    vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.trustedui@1.0-service-qti \
-    vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
-    vendor.samsung.hardware.authfw@1.0-service \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor.samsung.hardware.camera.provider@4.0-service_64 \
-    vendor.samsung.hardware.light-service \
-    vendor.samsung.hardware.media.converter@1.0-service \
-    vendor.samsung.hardware.miscpower@2.0-service \
-    vendor.samsung.hardware.securesnap-service \
     vendor.samsung.hardware.security.drk@2.0-service \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service \
     vendor.samsung.hardware.security.skpm@1.0-service \
     vendor.samsung.hardware.security.widevine.keyprov-service \
-    vendor.samsung.hardware.snap-service \
-    vendor.samsung.hardware.sysinput@1.3-service \
-    vendor.samsung.hardware.thermal@1.0-service \
-    vendor.samsung.hardware.tlc.ddar@1.0-service \
-    vendor.samsung.hardware.tlc.hdm@1.1-service \
-    vendor.samsung.hardware.tlc.iccc@1.0-service \
-    vendor.samsung.hardware.tlc.kg-service \
-    vendor.samsung.hardware.tlc.ucm@2.0-service \
-    vendor.samsung.hardware.wifi@2.0-service \
-    iod \
-    ipacm-diag \
     irsc_util \
-    ks \
     loadalgo \
     loc_launcher \
     lowi-server \
-    mdm_helper \
-    mdm_helper_proxy \
-    modemManager \
-    mutualex \
-    netmgrd \
-    nqnfcinfo \
     pd-mapper \
-    pktlogconf \
     pm-proxy \
     pm-service \
     pmic_key_reset \
     ppd \
-    qcc-vendor \
     qcom-system-daemon \
     qdcmss \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
-    qseecom_sample_client \
     qseecomd \
     rmt_storage \
     sec_nvm \
     sensors.qti \
-    shsusrd \
     snap_utility_64 \
     snaplite_utility_64 \
     spdaemon \
     sscrpcd \
     ssgtzd \
-    ssr_diag \
-    ssr_setup \
-    storkd \
-    subsystem_ramdump \
     tftp_server \
     thermal-engine-v2 \
     time_client \
     time_daemon \
-    ubwcconvert \
-    utility_cache_test.tflite \
-    vendor.samsung.hardware.security.engmode@1.0-service \
-    vendor.samsung.hardware.security.fkeymaster-service \
-    vendor.samsung.hardware.security.hdcp.wifidisplay-service \
-    vendor.samsung.hardware.security.proca@2.0-service \
     vmmgr \
     wvkprov \
     xtra-daemon

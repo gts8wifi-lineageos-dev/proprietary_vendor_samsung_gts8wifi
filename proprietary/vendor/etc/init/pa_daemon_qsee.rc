@@ -7,4 +7,3 @@ service proca /vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
 
 on late-fs
     wait_for_prop vendor.sys.qseecomd.enable true
-    start proca
