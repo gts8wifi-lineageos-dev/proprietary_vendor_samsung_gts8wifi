@@ -186,7 +186,7 @@
             <!-- measured [565-621] lower-upper [150-1596] median * 1.5 [890] -->
             <Limit name="measured-frame-rate-320x240" range="330-725" />
             <!-- measured [472-502] lower-upper [123-1311] median * 1.5 [731] -->
-            <Limit name="measured-frame-rate-720x480" range="271-596" />
+            <Limit name="measured-frame-rate-720x480" range="110-240" />
             <!-- measured [193-228] lower-upper [53-567] median * 1.5 [316] -->
             <Limit name="measured-frame-rate-1280x720" range="117-258" />
             <!-- measured [83-125] lower-upper [26-280] median * 1.5 [156] -->

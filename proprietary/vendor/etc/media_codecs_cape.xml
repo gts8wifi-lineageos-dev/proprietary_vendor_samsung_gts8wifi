@@ -103,7 +103,6 @@
 -->
 
 <MediaCodecs>
-    <Include href="media_codecs_google_audio.xml" />
     <Include href="media_codecs_vendor_audio.xml" />
     <Include href="media_codecs_google_telephony.xml" />
     <Include href="media_codecs_c2_audio.xml" />
@@ -286,10 +285,6 @@
             <Limit name="performance-point-1920x1080" value="240" />
             <Limit name="performance-point-3840x2160" value="120" />
             <Limit name="performance-point-7680x4320" value="30" />
-            <Tuning name="vq-target-bpp-1920x1080" value="3.80" />
-            <Tuning name="vq-target-bpp-1280x720" value="4.50" />
-            <Tuning name="vq-target-bpp-960x540" value="4.63" />
-            <Tuning name="vq-target-bpp-640x480" value="5.25" />
         </MediaCodec>
         <MediaCodec name="c2.qti.avc.encoder.secure" type="wfd/avc">
             <Alias name="OMX.qcom.video.encoder.avc.secure"/>
@@ -328,7 +323,6 @@
             <Limit name="performance-point-1920x1080" value="240" />
             <Limit name="performance-point-3840x2160" value="120" />
             <Limit name="performance-point-7680x4320" value="30" />
-            <Tuning name="vq-target-bpp-1920x1080" value="3" />
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.encoder.secure" type="wfd/hevc">
             <Alias name="OMX.qcom.video.encoder.hevc.secure"/>
