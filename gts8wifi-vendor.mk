@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc \
@@ -1136,10 +1135,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.spu@2.0 \
     vendor.qti.voiceprint@1.0 \
     vendor.samsung.hardware.bluetooth@2.0 \
-    vendor.samsung.hardware.camera.device@5.0-impl \
-    vendor.samsung.hardware.camera.device@5.0 \
-    vendor.samsung.hardware.camera.provider@4.0-legacy \
-    vendor.samsung.hardware.camera.provider@4.0 \
     vendor.samsung.hardware.health@2.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
     vintf-codecsolution-V2-ndk_platform \
@@ -1334,7 +1329,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.gnss@2.1-service-qti.xml \
     c2_manifest_vendor_audio.xml \
-    deviceManifest.xml \
     iweaver_v1_manifest.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     vendor.qti.gnss-service.xml \
@@ -1371,7 +1365,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
-    vendor.samsung.hardware.camera.provider@4.0-service_64 \
     vendor.samsung.hardware.security.drk@2.0-service \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service \
     vendor.samsung.hardware.security.skpm@1.0-service \
