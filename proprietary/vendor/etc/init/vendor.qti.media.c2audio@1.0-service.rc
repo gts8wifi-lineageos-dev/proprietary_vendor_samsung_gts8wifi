@@ -1,4 +1,5 @@
 service vendor-qti-media-c2audio-hal-1-0 /vendor/bin/hw/vendor.qti.media.c2audio@1.0-service
+    interface android.hardware.media.c2@1.0::IComponentStore default2
     class hal
     user mediacodec
     group mediadrm camera drmrpc system
