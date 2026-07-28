@@ -609,20 +609,6 @@ PRODUCT_PACKAGES += \
     com.samsung.node.uniplugin_vdis \
     com.ss.stats.aec \
     com.ss.stats.af \
-    camx.device@3.2-impl \
-    camx.device@3.3-impl \
-    camx.device@3.4-ext-impl \
-    camx.device@3.4-impl \
-    camx.device@3.5-ext-impl \
-    camx.device@3.5-impl \
-    camx.device@3.6-ext-impl \
-    camx.device@3.6-impl \
-    camx.provider@2.4-external \
-    camx.provider@2.4-impl \
-    camx.provider@2.4-legacy \
-    camx.provider@2.5-external \
-    camx.provider@2.5-legacy \
-    camx.provider@2.6-legacy \
     cdsp_face \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
