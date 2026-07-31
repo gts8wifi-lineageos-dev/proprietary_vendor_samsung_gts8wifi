@@ -1231,6 +1231,8 @@ PRODUCT_PACKAGES += \
     libsnap_compute_wrapper_secure \
     libsnap_vndk \
     libsnap_vndk_secure \
+    libsnapdragoncolor-manager \
+    libsnapdragoncolor-qdcm \
     libsnaplite_native \
     libsnaplite_native_secure \
     libsnaplite_wrapper \
