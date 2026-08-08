@@ -7,21 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/DsgpPolicy.csv:$(TARGET_COPY_OUT_VENDOR)/etc/DsgpPolicy.csv \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/MesDetectorBlur.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorBlur.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/MesDetectorLowlight.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorLowlight.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/MesDetectorNoise.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/MesDetectorNoise.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/VslMesDetector/moire_detection.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/VslMesDetector/moire_detection.tflite \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
@@ -41,23 +28,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU7__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU7__.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU820.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU820.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU830.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU830.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU860.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU860.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/qdcm_calib_data_GTS8_NT36523_TL109BVMS2.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_GTS8_NT36523_TL109BVMS2.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/qdcm_calib_data_ss_dsi_panel_NT36523_PPA957DB1_WQXGA.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_ss_dsi_panel_NT36523_PPA957DB1_WQXGA.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA24VU01_WQXGA.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA24VU01_WQXGA.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA46AS01_WQXGA.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_ss_dsi_panel_S6TUUM1_AMSA46AS01_WQXGA.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted:$(TARGET_COPY_OUT_VENDOR)/etc/face3d/qcnn_concat_file_model-0324_2_encrypted \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
@@ -138,14 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/lm/sPLHFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/sPLHFeature.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_cape_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape_vendor.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v0.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_diwali_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v1.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_diwali_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v2.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
@@ -154,45 +125,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_performance_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cape.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_performance_cape_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cape_vendor.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_performance_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_diwali_v0.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_performance_diwali_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_diwali_v1.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_performance_diwali_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_diwali_v2.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_performance_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_taro.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_performance_taro_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_taro_vendor.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_taro.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_taro_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_taro_vendor.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_diwali_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v0/video_system_specs.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_diwali_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v1/video_system_specs.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_diwali_v2/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v2/video_system_specs.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_profiles_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_cape.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_profiles_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_diwali_v0.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_profiles_diwali_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_diwali_v1.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/media_profiles_diwali_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_diwali_v2.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_profiles_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_taro.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/media_taro/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_taro/video_system_specs.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/mercury.json:$(TARGET_COPY_OUT_VENDOR)/etc/mercury.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMQA_aiBLURESTIMATE_V100_FP32.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMQA_aiBLURESTIMATE_V100_FP32.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMQA_aiFiQA_V100_FP32.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMQA_aiFiQA_V100_FP32.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMQA_aiIQA_V100_FP32.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMQA_aiIQA_V100_FP32.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMQA_aiNOISEDETECT_V100_FP32.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMQA_aiNOISEDETECT_V100_FP32.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiCLARITY2.0_2X_V200_FP16_sm8450_snpe210.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiCLARITY2.0_2X_V200_FP16_sm8450_snpe210.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiDEBLUR_V140_FP16_sm8450_snpe210.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiDEBLUR_V140_FP16_sm8450_snpe210.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiHDR_Global_INT16_V430_sm8450_snpe1620.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiHDR_Global_INT16_V430_sm8450_snpe1620.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiHDR_Local_INT16_V430_sm8450_snpe1620.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiHDR_Local_INT16_V430_sm8450_snpe1620.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiMOIREREMOVE_Coarse_V900_FP16_sm8450_snpe210.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiMOIREREMOVE_Coarse_V900_FP16_sm8450_snpe210.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiMOIREREMOVE_Fine_V900_FP16_sm8450_snpe210.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiMOIREREMOVE_Fine_V900_FP16_sm8450_snpe210.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiUPSCALER_2X_LITE_V100_FP16_sm8450_snpe210.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiUPSCALER_2X_LITE_V100_FP16_sm8450_snpe210.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiUPSCALER_3X_LITE_V100_FP16_sm8450_snpe210.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiUPSCALER_3X_LITE_V100_FP16_sm8450_snpe210.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/SRIBMidas_aiUPSCALER_4X_LITE_V100_FP16_sm8450_snpe210.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/midas/SRIBMidas_aiUPSCALER_4X_LITE_V100_FP16_sm8450_snpe210.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/deflare/srcb_flare_enhancement.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/midas/deflare/srcb_flare_enhancement.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/deflare/srcb_flare_estimate.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/midas/deflare/srcb_flare_estimate.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/midas_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/midas/midas_config.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/midas/moire_detection/moire_detection.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/midas/moire_detection/moire_detection.tflite \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/mixer_usb_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_default.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/mixer_usb_gray.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_gray.xml \
@@ -208,77 +151,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/portrait_data/LF_segmenter/LF_segmenter_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/portrait_data/LF_segmenter/LF_segmenter_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/portrait_data/LF_segmenter/LF_segmenter_cnn.info:$(TARGET_COPY_OUT_VENDOR)/etc/portrait_data/LF_segmenter/LF_segmenter_cnn.info \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/portrait_data/SRIB_HumanSegVideo_INT8_V102_sm8450_snpe2106_vendor.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/portrait_data/SRIB_HumanSegVideo_INT8_V102_sm8450_snpe2106_vendor.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/portrait_data/single_bokeh_feature_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/portrait_data/single_bokeh_feature_vendor.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/aisolution_1.0/BrightModel-timestamp:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/aisolution_1.0/BrightModel-timestamp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/aisolution_1.0/model_960_896_g_scalar_b16ch_0731_32ch_space_v2_noslice_HTP_FP16.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/aisolution_1.0/model_960_896_g_scalar_b16ch_0731_32ch_space_v2_noslice_HTP_FP16.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/MeanFea.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/MeanFea.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/ParaFea.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/ParaFea.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/PmAgeFeatSelIdx.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/PmAgeFeatSelIdx.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/PmAgeModel.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/PmAgeModel.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/PmExpFeatSelIdx.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/PmExpFeatSelIdx.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/PmExpModel.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/PmExpModel.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/PmGenModel.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/PmGenModel.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/gae/PmGenderFeatSelIdx.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/PmGenderFeatSelIdx.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/SS_segmenter/SS_segmenter_cnn.info:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/SS_segmenter/SS_segmenter_cnn.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/SS_segmenter/SS_segmenter_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/SS_segmenter/SS_segmenter_cnn.prototxt \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/SS_segmenter/SS_segmenter_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/SS_segmenter/SS_segmenter_cnn_light.caffemodel \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.info:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/aic_detector/aic_detector_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/aic_detector/aic_detector_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/aic_detector/aic_detector_cnn.info:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/aic_detector/aic_detector_cnn.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/aic_g_o_detector/aic_g_o_detector_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/aic_g_o_detector/aic_g_o_detector_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/aic_g_o_detector/aic_g_o_detector_cnn.info:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/aic_g_o_detector/aic_g_o_detector_cnn.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/aic_g_o_detector/aic_g_o_detector_cnn_system.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/aic_g_o_detector/aic_g_o_detector_cnn_system.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/dvs/dvs_od_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/dvs/dvs_od_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/dvs/dvs_segmenter_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/dvs/dvs_segmenter_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/hs_segmenter/hs_segmenter.info:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/hs_segmenter/hs_segmenter.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/hs_segmenter/hs_segmenter.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/hs_segmenter/hs_segmenter.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/slens_classifier/slens_classifier_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/slens_classifier/slens_classifier_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/image_understanding/db/slens_detector/slens_detector_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/image_understanding/db/slens_detector/slens_detector_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/personal_1.0/PersonalModel-timestamp:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/personal_1.0/PersonalModel-timestamp \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/personal_1.0/PhotoParsing5_AF_FACE_128_DSP_iter_136589_v2.2_q.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/personal_1.0/PhotoParsing5_AF_FACE_128_DSP_iter_136589_v2.2_q.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/personal_1.0/PhotoParsing5_AWB_FACE_256_DSP_iter_495623_v2.0_q.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/personal_1.0/PhotoParsing5_AWB_FACE_256_DSP_iter_495623_v2.0_q.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/saiv/personal_1.0/PhotoParsing6_AWB_FACE_256_DSP_iter_300000_v2.4_q.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/personal_1.0/PhotoParsing6_AWB_FACE_256_DSP_iter_300000_v2.4_q.dlc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sec_audio_volume_curve.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sec_audio_volume_curve.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/secnvm/k250a_47000301_0.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000301_0.img \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/secnvm/k250a_47000305_c.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000305_c.img \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/secnvm/k250a_47000306_1.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000306_1.img \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/cape_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cape_qrd_lsm6dst_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_ak991x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_bu52053nvx_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_default_sensors.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_dynamic_sensors.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_ak991x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lps22hh_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lsm6dst_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lsm6dst_1.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_hdk_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_tmd3702_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_irq.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lps22hh_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lsm6dst_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lsm6dst_1.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_ak991x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_lsm6dst_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_mtp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_lsm6dst_1.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_power_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_ak991x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_qrd_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_dynamic_sensors.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_lps22hh_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_lsm6dst_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_sx932x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_tmd3702_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_sx932x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_tmd3702_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_ak991x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_lsm6dst_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/diwali_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_lsm6dst_1.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/qsh_camera.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
@@ -305,34 +186,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_ak991x_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_ak991x_1.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_bridge_driver_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_bridge_driver_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_default_sensors.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_ak991x_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_lps22hh_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_lsm6dst_0.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_lsm6dst_1.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_hdk_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_tmd3702_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_irq.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_lps22hh_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_lsm6dso_0_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_lsm6dso_0_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_power_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_veml3235_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_veml3235_0.json \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/sensors/config/waipio_veml3235_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_veml3235_1.json \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/Blur/BlurClassifier.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/Blur/BlurClassifier.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/ClarityScorer/ClarityScorer.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/ClarityScorer/ClarityScorer.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/Pet/SRIB_PetFacialAction.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/Pet/SRIB_PetFacialAction.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/Pet/SR_PetActionClassifier.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/Pet/SR_PetActionClassifier.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/Pet/SR_PetPoseEstimator.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/Pet/SR_PetPoseEstimator.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/SmartCrop/SmartCrop.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/SmartCrop/SmartCrop.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/blink/blink.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/blink/blink.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/blur_detection/BlurDetectionModel_20210527.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/blur_detection/BlurDetectionModel_20210527.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/dynamic_viewing/DynamicViewingModelHumanDetection.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/dynamic_viewing/DynamicViewingModelHumanDetection.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/dynamic_viewing/FaceEngine_model/FERDetModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/dynamic_viewing/FaceEngine_model/FERDetModel.dat \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/dynamic_viewing/FaceEngine_model/FERTrackModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/dynamic_viewing/FaceEngine_model/FERTrackModel.dat \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/dynamic_viewing/action172_t0_quantized.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/dynamic_viewing/action172_t0_quantized.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/dynamic_viewing/movinet_t0.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/dynamic_viewing/movinet_t0.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/dynamic_viewing/score_model_multi.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/dynamic_viewing/score_model_multi.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/jumpshot/ActionShotPose.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/jumpshot/ActionShotPose.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/jumpshot/ActionShotPosture.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/jumpshot/ActionShotPosture.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/etc/singletake/saliency/FixPNet.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/singletake/saliency/FixPNet.dlc \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/situation_audio_policy_volumes_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/situation_audio_policy_volumes_sec.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/smomo_setting.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smomo_setting.xml \
     vendor/samsung/gts8wifi/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
@@ -492,57 +351,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts8wifi/proprietary/vendor/lib64/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/uw_dual_calibration.bin \
     vendor/samsung/gts8wifi/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin \
     vendor/samsung/gts8wifi/proprietary/vendor/lib64/p3_profile.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/p3_profile.bin \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.info:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/af_segmenter/af_segmenter_cnn.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/aig_document_classifier/aig_document_classifier_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_document_classifier/aig_document_classifier_cnn.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/aig_document_detector/aig_document_detector_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aig_document_detector/aig_document_detector_cnn.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/hdr_verifier/hdr_verifier_cnn.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/hdr_verifier/hdr_verifier_cnn.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/hdr_verifier/hdr_verifier_cnn.info:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/hdr_verifier/hdr_verifier_cnn.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/moon_verifier/moon_verifier_cnn.info:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/moon_verifier/moon_verifier_cnn.info \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/moon_verifier/moon_verifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/moon_verifier/moon_verifier_cnn.prototxt \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/moon_verifier/moon_verifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/moon_verifier/moon_verifier_cnn_light.caffemodel \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/pet_detector/pet_detector_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/pet_detector/pet_detector_cnn.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/pet_mypetsearch/pet_body_embedding_mps.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/pet_mypetsearch/pet_body_embedding_mps.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/pet_mypetsearch/pet_face_embedding_mps.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/pet_mypetsearch/pet_face_embedding_mps.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/pet_mypetsearch/pet_face_keypoint_mps.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/pet_mypetsearch/pet_face_keypoint_mps.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/sce_detector/sce_detector_cnn.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/sce_detector/sce_detector_cnn.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/image_understanding/db/smartscan_rectifier/deep_dewarp_cnn.onnx:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/smartscan_rectifier/deep_dewarp_cnn.onnx \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/mpi_model/009/B2BSFNet.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/mpi_model/009/B2BSFNet.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/mpi_model/009/B2BSFNet.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/mpi_model/009/B2BSFNet.prototxt \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/mpi_model/1000/B2BSFNet.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/mpi_model/1000/B2BSFNet.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/mpi_model/1000/B2BSFNet.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/mpi_model/1000/B2BSFNet.prototxt \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/mpi_model/999/B2BSFNet.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/mpi_model/999/B2BSFNet.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/mpi_model/999/B2BSFNet.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/mpi_model/999/B2BSFNet.prototxt \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/mpi_model/B2BSFNetVendor-timestamp:$(TARGET_COPY_OUT_VENDOR)/saiv/mpi_model/B2BSFNetVendor-timestamp \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/sr_engine_model/All_mnetv2_mini_p256x256_b16_00834_20210809.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/sr_engine_model/All_mnetv2_mini_p256x256_b16_00834_20210809.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/sr_engine_model/nima_crop_pair_v0.0.2_mobilenetv2.tflite:$(TARGET_COPY_OUT_VENDOR)/saiv/sr_engine_model/nima_crop_pair_v0.0.2_mobilenetv2.tflite \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/swisp_1.0/db/SWISPNetVendor-timestamp:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/SWISPNetVendor-timestamp \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e374_832X1088X4.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e374_832X1088X4.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e734_832x1072x4_PRECONV.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e734_832x1072x4_PRECONV.pb \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e89_832X1088X4_v9_1_IS_C3P123_v8_2ref_SC_ELL_v2.dlc:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e89_832X1088X4_v9_1_IS_C3P123_v8_2ref_SC_ELL_v2.dlc \
-    vendor/samsung/gts8wifi/proprietary/vendor/saiv/swisp_1.0/db/denoise_model_e972_832X1072X4_v9_1_IS_C3P123_v8_2ref_SC_ELL_v2.pb:$(TARGET_COPY_OUT_VENDOR)/saiv/swisp_1.0/db/denoise_model_e972_832X1072X4_v9_1_IS_C3P123_v8_2ref_SC_ELL_v2.pb
 
 PRODUCT_PACKAGES += \
-    com.qti.eeprom.gt24p128c2csli_imx766 \
-    com.qti.eeprom.irs2381c_polar \
     com.qti.eeprom.sec2qcconversion \
     com.qti.eeprom.truly_cmb433 \
     com.samsung.ois.mcu_stm32g \
     com.samsung.sensor.gc5035 \
     com.samsung.sensor.hi1337 \
     com.samsung.sensor.hi847 \
-    com.samsung.sensor.imx258 \
-    com.samsung.sensor.imx374 \
-    com.samsung.sensor.imx471 \
-    com.samsung.sensor.imx563 \
-    com.samsung.sensor.imx754 \
-    com.samsung.sensor.s5k2ld \
-    com.samsung.sensor.s5k3j1 \
-    com.samsung.sensor.s5k3k1 \
-    com.samsung.sensor.s5kgh1 \
-    com.samsung.sensor.s5kgn3 \
-    com.samsung.sensor.s5khm3 \
     com.bots.node.vendortagwrite \
     com.qti.camx.chiiqutils \
     com.qti.eisv2 \
@@ -598,15 +414,8 @@ PRODUCT_PACKAGES += \
     com.qti.stats.tracker \
     com.qtistatic.stats.aec \
     com.qtistatic.stats.awb \
-    com.samsung.node.capture_fusion \
-    com.samsung.node.realtimebokeh \
     com.samsung.node.resolution \
     com.samsung.node.smooth_transition \
-    com.samsung.node.uniplugin_capture \
-    com.samsung.node.uniplugin_preview \
-    com.samsung.node.uniplugin_recording \
-    com.samsung.node.uniplugin_recording_sub \
-    com.samsung.node.uniplugin_vdis \
     com.ss.stats.aec \
     com.ss.stats.af \
     cdsp_face \
@@ -617,17 +426,11 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.frameselect \
     com.qti.feature2.fusion \
     com.qti.feature2.generic \
-    com.qti.feature2.gs.cedros \
-    com.qti.feature2.gs.fillmore \
-    com.qti.feature2.gs.sdm865 \
-    com.qti.feature2.gs.sm8350 \
     com.qti.feature2.gs.sm8450 \
-    com.qti.feature2.gs.sm8475 \
     com.qti.feature2.hdr \
     com.qti.feature2.mcreprocrt \
     com.qti.feature2.memcpy \
     com.qti.feature2.mfsr.sm8450 \
-    com.qti.feature2.mfsr \
     com.qti.feature2.ml \
     com.qti.feature2.mux \
     com.qti.feature2.qcfa \
@@ -673,9 +476,7 @@ PRODUCT_PACKAGES += \
     libAFSegmenter_v1.camera.samsung \
     libAlacSwDec \
     libApeSwDec \
-    libBlurDetectionDeepLearning.camera.samsung \
     libCB \
-    libDepthBokehVideo_interface \
     libDeviceInfoProvider \
     libEventFinder.camera.samsung \
     libEvrcSwCodec \
@@ -685,8 +486,6 @@ PRODUCT_PACKAGES += \
     libFrucSSMLib \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
-    libGPreqcancel \
-    libGPreqcancel_svc \
     libHDRVerifier_v1.camera.samsung \
     libHandGesture.camera.samsung \
     libHprVisualEffect \
@@ -714,14 +513,12 @@ PRODUCT_PACKAGES += \
     libRelighting_API.camera.samsung \
     libSRIB_ARVL_HAP.camera.samsung \
     libSceneDetector_v1.camera.samsung \
-    libSingleTakeBlurDetection.uniplugin@1.0 \
     libTouchInputVM \
     libTrustedInput \
     libTrustedInputTZ \
     libTrustedUI \
     libTrustedUITZ \
     libTrustedUIVM \
-    libVideoSuperNight_interface \
     lib_SamsungRec_07010 \
     libadm \
     libadreno_app_profiles \
@@ -730,21 +527,14 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libaidenoiser \
     libaivideocentral.arcsoft \
-    libarcsoft_aieffectpk_video \
-    libarcsoft_aieffectpk_video_bokeh \
-    libarcsoft_aieffectpk_video_plight \
-    libarcsoft_object_tracking \
-    libarcsoft_video_super_night \
     libaudio_log_utils \
     libauto_framing_arcsoft.uniplugin@1.0 \
-    libautotracking_interface \
     libbase64 \
     libbatching \
     libbauthserver \
     libbauthtzcommon \
     libbitmlengine \
     libbitmlenginev2 \
-    libbodyid.arcsoft \
     libc2filterplugin \
     libcamera2ndk_vendor \
     libcamera_nn_stub \
@@ -783,7 +573,6 @@ PRODUCT_PACKAGES += \
     libdiagjni \
     libdisp-aba \
     libdrmfs \
-    libdrmtime \
     libdsd2pcm \
     libdsi_netctrl \
     libdsmanager \
@@ -875,8 +664,6 @@ PRODUCT_PACKAGES += \
     libmultiobject_tracker \
     libnative-api \
     libnetmgr \
-    libnetmgr_common \
-    libnetmgr_utils \
     libnetmgrxfrmutils \
     liboemaids_vendor \
     liboemcrypto \
@@ -910,8 +697,6 @@ PRODUCT_PACKAGES += \
     libqc2filter \
     libqc2imageformatfilter \
     libqcbor \
-    libqcci_legacy \
-    libqcmaputils \
     libqcodec2_base \
     libqcodec2_basecodec \
     libqcodec2_core \
@@ -923,8 +708,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
     libqdi \
-    libqdp \
-    libqdpr \
     libqfp_sensortest \
     libqisl \
     libqll \
@@ -936,9 +719,7 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libqmi_common_so \
     libqmi_csi \
-    libqmi_csvt_srvc \
     libqmi_encdec \
-    libqmi_legacy \
     libqmiservices \
     libqppe \
     libqrtr \
@@ -1023,7 +804,6 @@ PRODUCT_PACKAGES += \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libtad \
-    libtensorflowLite.singletake.camera.samsung \
     libtensorflowlite.camera.samsung \
     libtensorflowlite_gpu.camera.samsung \
     libtfestriping \
@@ -1057,7 +837,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libxml \
     libxtadapter \
-    libzoomroi.samsung \
     libclearkeycasplugin \
     libdrmclearkeyplugin \
     libwvdrmengine \
@@ -1157,7 +936,6 @@ PRODUCT_PACKAGES += \
     libTsAwb_GTS8 \
     lib_android_keymaster_keymint_utils_samsung \
     libai_denoiser_interface \
-    libarcsoft_deflicker_native \
     libarcsoft_dualcam_portraitlighting_preview \
     libbacklight-calib \
     libc++_shared \
@@ -1199,11 +977,6 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
     libnanopb \
-    libnetmgr_datapath_proxy \
-    libnetmgr_sscm3 \
-    libnetmgrmodemproxy \
-    libnetmgrportutils \
-    libnlnetmgr \
     libpal_net_if \
     libpetcamera_engine \
     libpuresoftkeymasterdevice_samsung \
@@ -1330,7 +1103,6 @@ PRODUCT_PACKAGES += \
     btcoex_cont_config \
     cdsprpcd \
     cnss-daemon \
-    cnss_diag \
     diag-router \
     dspservice \
     factory.ssc \
@@ -1374,7 +1146,6 @@ PRODUCT_PACKAGES += \
     qseecomd \
     rmt_storage \
     sec_nvm \
-    sensors.qti \
     snap_utility_64 \
     snaplite_utility_64 \
     spdaemon \
